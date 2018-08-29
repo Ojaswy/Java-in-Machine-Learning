@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 public class AdaBoost extends RandomForest {
 	static int NO_TREES=30;		//Number of classifers 
-	static double alpha[]=new double[32561];	//An array for storing the weights for each instance.
+	static double alpha[]=new double[32561];	
 	static double weightedError[]=new double[NO_TREES];	//An array to store weighted error for each classifier.
 	static double wHat[]=new double[NO_TREES];			//An array to store wHAT for each classifier.
 	static ArrayList<List<Integer>> classifierPredictions=new ArrayList<List<Integer>>();	//ArrayList of ArrayList to store classifier predicitons on train data.
