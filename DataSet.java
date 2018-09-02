@@ -16,7 +16,7 @@ public class DataSet {
 		
 	  try{  
 	    FileInputStream fin=new FileInputStream("src/adult.txt"); 
-	    //Construct BufferedReader from InputStreamReader
+	   
 		BufferedReader br = new BufferedReader(new InputStreamReader(fin));
 		String line = null;
 		
