@@ -41,7 +41,7 @@ public class DataSet {
 	 }
 	/*
 	 * A method to put each line in ArrayList of strings from input test file.
-	 
+	  * @return ArrayList of Strings with each element as line of file.
 	 */
 public static ArrayList<String> getInstance()
 {
