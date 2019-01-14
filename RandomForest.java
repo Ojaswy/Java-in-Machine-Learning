@@ -9,7 +9,7 @@ public class RandomForest extends ID3 {
 	ArrayList selected;
 	RandomForest()
 	{
-	
+	 
 		while(h.size()!=4)
 		{
 			int randomNumber=random.nextInt(14);
