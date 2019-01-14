@@ -9,7 +9,7 @@ public class AdaBoost extends RandomForest {
 	static ArrayList<List<Integer>> classifierPredictionsOnTestData=new ArrayList<List<Integer>>();//ArrayList of ArrayList to store classifier predicitons on test data
 	static int classifiersize=0;
 	AdaBoost()
-	{
+	{ 
 		for(int i=0;i<32561;i++)
 			alpha[i]=1.0/32561;
 	}
@@ -81,13 +81,7 @@ public class AdaBoost extends RandomForest {
 		}
 		return predictions;
 	}
-	/*
-	*Usage: 
-	 * javac ID3
-	 * javac RandomForest
-	 * javac AdaBoost
-	 * java AdaBoost
-	 */
+	
 	public static void main(String []args)
 	{
 		long startTime = System.nanoTime();
