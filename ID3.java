@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.util.*;
  
 class Node {
-
+ 
 	Node parent;
 	Node children[];
 
