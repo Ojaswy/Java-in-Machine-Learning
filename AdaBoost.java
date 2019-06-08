@@ -11,7 +11,7 @@ public class AdaBoost extends RandomForest {
 	AdaBoost()
 	{  
 		for(int i=0;i<32561;i++)
-			alpha[i]=1.0/32561;
+			alpha[i]=1.0/32561; 
 	}
 	
 	public static void calcWeightedError(int d)
