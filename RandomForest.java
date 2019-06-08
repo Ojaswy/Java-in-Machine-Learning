@@ -7,7 +7,7 @@ public class RandomForest extends ID3 {
 	Random random=new Random((long)System.currentTimeMillis());
 	ArrayList selected;
 	RandomForest()
-	{
+	{ 
 	 
  		while(h.size()!=4)
 		{
