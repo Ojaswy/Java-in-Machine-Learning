@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.List; 
 public class AdaBoost extends RandomForest {
 	static int NO_TREES=30;		//Number of classifers 
