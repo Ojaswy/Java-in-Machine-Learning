@@ -85,7 +85,7 @@ class Instance {
 			}
 			else
 			{
-				if(i==0)
+			 	if(i==0)
 				{
 					String token=st.nextToken();
 					if(Integer.parseInt(token)<=Split.split[0])
