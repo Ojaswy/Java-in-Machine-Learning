@@ -8,7 +8,7 @@ public class AdaBoost extends RandomForest {
 	static ArrayList<List<Integer>> classifierPredictions=new ArrayList<List<Integer>>();	//ArrayList of ArrayList to store classifier predicitons on train data.
 	static ArrayList<List<Integer>> classifierPredictionsOnTestData=new ArrayList<List<Integer>>();//ArrayList of ArrayList to store classifier predicitons on test data
 	static int classifiersize=0;
-	AdaBoost()
+	AdaBoost() 
 	{  
 		for(int i=0;i<32561;i++)
 			alpha[i]=1.0/32561; 
