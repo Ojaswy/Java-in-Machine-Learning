@@ -5,7 +5,7 @@ public class RandomForest extends ID3 {
 	public static int [][]classification = new int[16281][2];	
 	HashSet h=new HashSet(); 
 	Random random=new Random((long)System.currentTimeMillis());
-	ArrayList selected;
+	ArrayList selected; 
 	RandomForest()
 	{ 
 	 
