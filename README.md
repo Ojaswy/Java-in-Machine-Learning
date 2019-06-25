@@ -2,7 +2,7 @@
 Implementation of ML Algorithms in Java as a part of comparative study.
   
 ## Adaboost vs RandomForest vs Desicion Trees(ID3)
-[AdaBoost](https://en.wikipedia.org/wiki/AdaBoost)
+[AdaBoost](https://en.wikipedia.org/wiki/AdaBoost) 
 
 [Random Forest](https://en.wikipedia.org/wiki/Random_forest)
  
