@@ -5,7 +5,7 @@ import java.util.*;
   
 public class DataSet {
 	ArrayList<ArrayList<String>> arr;
-	ArrayList<String> arr1;
+	ArrayList<String> arr1; 
 	
 	DataSet() 
 	{
