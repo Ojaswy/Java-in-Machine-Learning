@@ -20,7 +20,7 @@ Learning time on training data = 111sec
 
 Accuracy = 82.13%
 
-## ID3 : 
+## ID3 :  
 
 Learning time on training data = 76.3sec
 
