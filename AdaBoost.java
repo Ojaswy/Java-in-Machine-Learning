@@ -10,7 +10,7 @@ public class AdaBoost extends RandomForest {
 	static int classifiersize=0;
 	AdaBoost() 
 	{  
-		for(int i=0;i<32561;i++)
+		for(int i=0;i<32561;i++) 
 			alpha[i]=1.0/32561; 
 	}
 	
