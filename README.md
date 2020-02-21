@@ -8,7 +8,7 @@ Implementation of ML Algorithms in Java as a part of comparative study.
  
 [ID3](https://en.wikipedia.org/wiki/ID3_algorithm)
 
-## Random Forest :
+## Random Forest : 
 
 Learning time on training data = 161sec
 
