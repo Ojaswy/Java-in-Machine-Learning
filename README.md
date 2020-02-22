@@ -17,7 +17,7 @@ Accuracy = 76.37%
 ## Adaboosting :
 
 Learning time on training data = 111sec
-
+ 
 Accuracy = 82.13%
  
 ## ID3 :  
